@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row1">
+        <img src="../assets/logo.jpg" width="120px" height="120px">
+        <h1>Suraksha</h1>
+        <a routerLink="login" routerLinkActive="active" class="button" (click)="goToLogin()">Sign In/Sign Up</a>
+    </div>
+    <div class="topnav">
+        <a routerLink="/" id="Home" (click)="ChangeScreen('Home')">Home</a>
+        <a href="#" id="HC">Healthcare Centers</a>
+        <a href="#" id="PO">Post Office</a>
+        <a href="#" id="IC">Insurance Company</a>
+        <a routerLink="analysis" id="An">Analysis</a>
+    </div>
+    <router-outlet></router-outlet>
+</body>
+</html>

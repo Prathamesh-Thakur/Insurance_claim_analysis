@@ -1,0 +1,46 @@
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 > h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+.button{
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #04009B;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding-top: 18px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #0C8CE9;
+}
+
+.topnav a 
+{ font-size: 25px;
+  float: left;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px; 
+  padding-right: 85px ;
+  padding-left: 85px;
+  text-decoration:none;
+}
+
+.topnav a:hover 
+{
+  background-color: blue;
+  color: black;
+}
